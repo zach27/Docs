@@ -143,7 +143,7 @@ To generate a manifest of the embedded files, set the `<GenerateEmbeddedFilesMan
 
 Use [glob patterns](#glob-patterns) to specify one or more files to embed into the assembly.
 
-The sample app creates an `ManifestEmbeddedFileProvider` and passes the currently executing assembly to its constructor.
+The sample app creates a `ManifestEmbeddedFileProvider` and passes the currently executing assembly to its constructor.
 
 *Startup.cs*:
 
